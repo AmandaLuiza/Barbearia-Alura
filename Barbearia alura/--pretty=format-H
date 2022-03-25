@@ -1,0 +1,76 @@
+[33mcommit 7a8e40b28b5641501b6e1ff494ecddb45750cc13[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Amanda Ribeiro <amanda.ribeiro@onlineapp.com.br>
+Date:   Fri Mar 11 09:06:07 2022 -0300
+
+    Criando arquivo index.html com lista de cursos
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7012415[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,63 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="pt-br">[m
+[32m+[m[32m    <head>[m
+[32m+[m[32m        <meta charset="UTF-8">[m
+[32m+[m[32m        <title>Barbearia Alura</title>[m
+[32m+[m[32m        <link rel="stylesheet" href="reset.css">[m
+[32m+[m[32m        <link rel="stylesheet" href="style.css">[m
+[32m+[m[32m        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">[m
+[32m+[m[32m    </head>[m
+[32m+[m[32m    <body>[m
+[32m+[m[32m        <header>[m
+[32m+[m[32m            <div class="caixa">[m
+[32m+[m[32m            <h1><img src="logo.png"></h1>[m
+[32m+[m[32m            <nav>[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li><a href="index.html">Home</a></li>[m
+[32m+[m[32m                    <li><a href="produtos.html">Produtos</a></li>[m
+[32m+[m[32m                    <li><a href="contato.html">Contato</a></li>[m
+[32m+[m[32m                        </ul>[m
+[32m+[m[32m                    </nav>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m        </header>[m
+[32m+[m
+[32m+[m[32m        <img class="banner" src="banner.jpg">[m
+[32m+[m
+[32m+[m[32m        <main>[m
+[32m+[m[32m            <section class="principal">[m
+[32m+[m[32m                <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>[m
+[32m+[m[32m                <img class="utensilios" src="utensilios.jpg" alt="Utensilios de um barbeiro.">[m
+[32m+[m
+[32m+[m[32m                    <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba.[m[41m [m
+[32m+[m[32m                    Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>[m
+[32m+[m
+[32m+[m[32m                    <p id = "missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>[m
+[32m+[m
+[32m+[m[32m                    <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.[m[41m [m
+[32m+[m[32m                    O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>[m
+[32m+[m[32m            </section>[m
+[32m+[m[32m            <section class="mapa">[m
+[32m+[m[32m                <h3 class="titulo-principal">Nosso estabelecimento</h3>[m
+[32m+[m[32m                <p>Nosso estabelecimento esta locializado no coração da cidade.</p>[m
+[32m+[m
+[32m+[m[32m                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4499774665487!2d-46.63452058562873!3d-23.58818986846734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1646835915269!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>[m
+[32m+[m
+[32m+[m[32m            </section>[m
+[32m+[m[32m                <div section="beneficios">[m
+[32m+[m[32m                <h3 class="titulo-principal">Beneficios</h3>[m
+[32m+[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li class="itens">Atendimento aos clientes</li>[m
+[32m+[m[32m                    <li class="itens">Espaço Diferenciado</li>[m
+[32m+[m[32m                    <li class="itens">Localização</li>[m
+[32m+[m[32m                    <li class="itens">Profissionais Qualificados</li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m[32m                <img src="beneficios.jpg" class="imagembeneficios">[m
+[32m+[m[32m            </section>[m
+[32m+[m[32m        </main>[m
+[32m+[m[32m                <footer>[m
+[32m+[m[32m                    <img src="logo-branco.png" alt="Logo da Barbearia Alura">[m
+[32m+[m[32m                    <p class="copyright">Copyright Barbearia Alura - 2019</p>[m
+[32m+[m[32m                </footer>[m
+[32m+[m[32m    </body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
